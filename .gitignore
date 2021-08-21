@@ -27,3 +27,5 @@ todo-*.tar
 
 # for storing data.
 /persist/
+
+/test_persist/
