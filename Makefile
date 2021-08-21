@@ -1,5 +1,8 @@
 .PHONY : test
 
+install:
+	mix deps.get
+
 dev:
 	iex -S mix
 
