@@ -1,7 +1,4 @@
 defmodule Todo.Database do
-  @db_folder "./persist"
-  @pool_size 3
-
   def child_spec(_) do
     db_settings = Application.fetch_env!(:todo, :database)
 

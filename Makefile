@@ -11,3 +11,7 @@ test:
 
 build:
 	mix compile
+
+release:
+	mix release.init
+	MIX_ENV=prod mix release
